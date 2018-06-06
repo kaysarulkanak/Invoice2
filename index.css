@@ -1,0 +1,127 @@
+.myinvoicePart{
+	padding: 50px;
+}
+.myinvoicePart-Color{
+	background-color: cornsilk;
+}
+.weAutomatically{
+	padding: 10px;
+	padding-bottom: 30px;
+}
+.myInvoice-Font{
+	font-size: 24px;
+}
+/* Button and Input field css start from here ---------*/
+
+.myinvoicePart-Color .navPart{
+	text-align: center;
+}
+.inputPart{
+   width: 40%;
+	display: inline-block;
+}
+.myinvoicePart-Color .inputPart .input{
+	box-shadow: none;
+	border-radius:0px;;
+}
+.export-Button{
+   width: 15%;
+	margin-left: 4px;
+	display: inline-block;
+}
+.export-Button .button{
+	width: 100%;
+	border-radius: 0px;
+}
+.newInvoice-Button{
+	width: 25%;
+	display: inline-block;
+
+	margin-left: -3px;
+}
+.newInvoice-Button .button{
+	width: 100%;
+	border-radius: 0px;
+}
+@media only screen and (max-width: 680px){
+	.inputPart{
+		width: 85%;
+	}
+	.export-Button{
+		width: 42%;
+		margin: 0 auto;
+		display: inline-block;
+		margin-top: 5px;
+	}
+	.newInvoice-Button{
+		width: 42%;
+		margin: 0 auto;
+		display: inline-block;
+		margin-top: 5px;
+	}
+}
+
+/* Button and Input field css end here ---------*/
+
+
+.myinvoicePart-Color .linePart{
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+}
+.myinvoicePart-Color .theseInvoice{
+	padding: 20px 0px;
+}
+.clearEverything{
+	text-align: center;
+}
+.clearEverything button{
+	padding: 0px 25px;
+	border-radius: 0px;
+}
+/* -------------data part css start from here -----------*/
+.myinvoicePart-Color .dataPart1{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+.boxDesign{
+	border-radius: 0px;
+	width: 415px;
+	margin: 0 auto;
+	display: inline-block;
+	margin-bottom: 5px!important;
+	padding: 10px 20px;
+
+}
+.boxImage{
+	display: inline-block;
+	margin-right: 30px;
+}
+.boxContent{
+	display: inline-block;
+	text-align: left;
+	width: 72%;
+}
+@media only screen and (max-width: 600px){
+	.myinvoicePart{
+		padding:50px 0px;
+
+	}
+	.boxDesign{
+		width: 275px;
+		padding: 10px 0px;
+	}
+	.boxImage{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.myinvoicePart-Color{
+		padding: 12px 6px;
+	}
+	.boxContent{
+		display: inline-block;text-align: left;width: 71%;font-size: 15px;
+	}
+}
+
+/* -------------data part css end here -----------*/
+
